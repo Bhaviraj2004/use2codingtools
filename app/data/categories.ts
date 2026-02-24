@@ -109,7 +109,7 @@ export const categories = [
       {
         name: "Timestamp Converter",
         desc: "Unix timestamp to human date & back",
-        href: "/tools/timestamp",
+        href: "/tools/timestamp-converter",
       },
       {
         name: "Timezone Converter",
@@ -147,12 +147,12 @@ export const categories = [
       {
         name: "Regex Tester",
         desc: "Test and debug regular expressions",
-        href: "/tools/regex",
+        href: "/tools/regex-tester",
       },
       {
         name: "Markdown Preview",
         desc: "Live Markdown to HTML renderer",
-        href: "/tools/markdown",
+        href: "/tools/markdown-preview",
       },
       {
         name: "Code Diff",
@@ -167,7 +167,7 @@ export const categories = [
       {
         name: "Slug Generator",
         desc: "Convert text to URL-friendly slug",
-        href: "/tools/slug",
+        href: "/tools/slug-generator",
       },
       {
         name: "Lorem Ipsum",
