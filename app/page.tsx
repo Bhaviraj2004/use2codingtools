@@ -94,7 +94,7 @@ export default function Home() {
             {["Tools", "GitHub"].map((l) => (
               <a
                 key={l}
-                href={l === "Tools" ? "#tools" : l === "GitHub" ? "https://github.com" : "#"}
+                href={l === "Tools" ? "#tools" : l === "GitHub" ? "https://github.com/Bhaviraj2004/use2codingtools" : "#"}
                 className="font-mono text-[11px] uppercase tracking-widest text-slate-500 hover:text-emerald-400 transition-colors"
               >
                 {l}
@@ -142,7 +142,7 @@ export default function Home() {
           Explore Tools →
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/Bhaviraj2004/use2codingtools"
           className="font-mono text-sm px-6 py-3 border border-white/10 text-slate-500 rounded-sm hover:border-slate-500 hover:text-slate-300 transition-all"
         >
           Star on GitHub
