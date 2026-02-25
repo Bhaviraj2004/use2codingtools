@@ -41,7 +41,7 @@ export default function CsvToJson() {
           setOutput(json);
           setRowCount(results.data.length);
         },
-        error: (err) => setError(err.message || "Parsing failed"),
+          error: (err: Error) => setError(err.message || "Parsing failed"),
       });
     },
     [delimiter, hasHeader]

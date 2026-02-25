@@ -83,8 +83,12 @@ export default function HMACGenerator() {
     if (!msg || !key) { setResults([]); return; }
     setLoading(true);
     try {
-      const msgBytes = encodeInput(msg, msgEnc);
-      const keyBytes = encodeInput(key, keyEnc);
+      // const msgBytes = encodeInput(msg, msgEnc);
+      const msgBytesRaw = encodeInput(msg, msgEnc);
+const msgBytes = new Uint8Array(msgBytesRaw);
+      // const keyBytes = encodeInput(key, keyEnc);
+      const keyBytesRaw = encodeInput(key, keyEnc);
+const keyBytes = new Uint8Array(keyBytesRaw);
       const list: HMACResult[] = [];
       for (const algo of ALGOS) {
         if (!algos.has(algo)) continue;
