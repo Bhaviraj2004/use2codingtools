@@ -91,10 +91,10 @@ export default function Home() {
             use2<span className="text-slate-500">coding</span>tools
           </a>
           <div className="hidden md:flex items-center gap-7">
-            {["Tools", "Docs", "GitHub"].map((l) => (
+            {["Tools", "GitHub"].map((l) => (
               <a
                 key={l}
-                href={l === "Tools" ? "#tools" : l === "Docs" ? "#docs" : "https://chatgpt.com/?model=auto"}
+                href={l === "Tools" ? "#tools" : l === "GitHub" ? "https://github.com" : "#"}
                 className="font-mono text-[11px] uppercase tracking-widest text-slate-500 hover:text-emerald-400 transition-colors"
               >
                 {l}
@@ -106,48 +106,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       {/* ── HERO ── */}
       {/* ── HERO ── */}

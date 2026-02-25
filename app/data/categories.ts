@@ -114,12 +114,12 @@ export const categories = [
       {
         name: "Timezone Converter",
         desc: "Convert time between any timezones",
-        href: "/tools/timezone",
+        href: "/tools/timezone-converter",
       },
       {
         name: "Cron Generator",
         desc: "Build and explain cron expressions",
-        href: "/tools/cron",
+        href: "/tools/cron-generator",
       },
       {
         name: "Age Calculator",
@@ -178,11 +178,6 @@ export const categories = [
         name: "HTML Preview",
         desc: "Live preview HTML in browser",
         href: "/tools/html-preview",
-      },
-      {
-        name: "Text Compare",
-        desc: "Diff two blocks of text",
-        href: "/tools/text-compare",
       },
     ],
   },
