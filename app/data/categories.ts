@@ -45,6 +45,21 @@ export const categories = [
         desc: "Transform XML structure to JSON",
         href: "/tools/xml-to-json",
       },
+      {
+        name: "JSON Schema Generator",
+        desc: "Auto-generate JSON Schema from any JSON",
+        href: "/tools/json-schema-generator",
+      },
+      {
+        name: "JSON → TypeScript",
+        desc: "Generate TypeScript interfaces from JSON",
+        href: "/tools/json-to-typescript",
+      },
+      {
+        name: "SQL Formatter",
+        desc: "Beautify and format SQL queries",
+        href: "/tools/sql-formatter",
+      },
     ],
   },
   {
@@ -97,6 +112,16 @@ export const categories = [
         name: "Random Token",
         desc: "Generate secure random tokens",
         href: "/tools/random-token",
+      },
+      {
+        name: "HTML Entities",
+        desc: "Encode & decode HTML special characters",
+        href: "/tools/html-entities",
+      },
+      {
+        name: "String Escape",
+        desc: "Escape or unescape \\n, \\t, quotes and more",
+        href: "/tools/string-escape",
       },
     ],
   },
@@ -179,6 +204,127 @@ export const categories = [
         desc: "Live preview HTML in browser",
         href: "/tools/html-preview",
       },
+      {
+        name: "Curl → Fetch",
+        desc: "Convert curl commands to JS fetch code",
+        href: "/tools/curl-to-fetch",
+      },
+      {
+        name: "Gitignore Generator",
+        desc: "Generate .gitignore for any project type",
+        href: "/tools/gitignore-generator",
+      },
+      {
+        name: "Chmod Calculator",
+        desc: "Visually calculate Unix file permissions",
+        href: "/tools/chmod-calculator",
+      },
+      {
+        name: "Markdown Table",
+        desc: "Build tables visually, copy as Markdown",
+        href: "/tools/markdown-table",
+      },
+      {
+        name: "HTTP Status Codes",
+        desc: "Searchable reference for all HTTP codes",
+        href: "/tools/http-status-codes",
+      },
+      {
+        name: "API Request Builder",
+        desc: "Build requests, get fetch/axios/curl code",
+        href: "/tools/api-request-builder",
+      },
+      {
+        name: "Code Screenshot",
+        desc: "Turn code into a beautiful shareable image",
+        href: "/tools/code-screenshot",
+      },
+      {
+        name: ".env Parser",
+        desc: "Parse and validate .env files instantly",
+        href: "/tools/env-parser",
+      },
+      {
+        name: "OG Image Previewer",
+        desc: "Preview Open Graph social share image",
+        href: "/tools/og-previewer",
+      },
+    ],
+  },
+  {
+    id: "text",
+    icon: "📝",
+    name: "Text Tools",
+    color: "pink",
+    tools: [
+      {
+        name: "Word Counter",
+        desc: "Count words, chars, sentences & paragraphs",
+        href: "/tools/word-counter",
+      },
+      {
+        name: "Character Counter",
+        desc: "Count chars with Twitter/LinkedIn limits",
+        href: "/tools/character-counter",
+      },
+      {
+        name: "Text Diff",
+        desc: "Compare two blocks of text line by line",
+        href: "/tools/text-diff",
+      },
+      {
+        name: "Word Frequency",
+        desc: "Count how often each word appears in text",
+        href: "/tools/word-frequency",
+      },
+      {
+        name: "Duplicate Line Remover",
+        desc: "Remove duplicate lines from any text",
+        href: "/tools/duplicate-remover",
+      },
+      {
+        name: "Text Sorter",
+        desc: "Sort lines alphabetically or by length",
+        href: "/tools/text-sorter",
+      },
+      {
+        name: "Text to ASCII Art",
+        desc: "Convert text into ASCII art banners",
+        href: "/tools/ascii-art",
+      },
+    ],
+  },
+  {
+    id: "css",
+    icon: "🎨",
+    name: "CSS Tools",
+    color: "violet",
+    tools: [
+      {
+        name: "Box Shadow Generator",
+        desc: "Build box-shadow visually with live preview",
+        href: "/tools/box-shadow",
+      },
+      {
+        name: "Gradient Generator",
+        desc: "Create linear & radial gradients visually",
+        href: "/tools/gradient-generator",
+      },
+      {
+        name: "CSS Units Converter",
+        desc: "Convert px ↔ rem ↔ em ↔ vh ↔ vw",
+        href: "/tools/css-units",
+      },
+      {
+        name: "Tailwind Color Finder",
+        desc: "Find the closest Tailwind class for any HEX",
+        href: "/tools/tailwind-color",
+      },
+      {
+        name: "Tailwind Generator",
+        desc: "Pick CSS properties, get Tailwind classes",
+        href: "/tools/tailwind-generator",
+      },
     ],
   },
   {
@@ -216,6 +362,72 @@ export const categories = [
         name: "Image Resizer",
         desc: "Resize images to exact dimensions",
         href: "/tools/image-resizer",
+      },
+      {
+        name: "Color Palette",
+        desc: "Generate a full palette from one color",
+        href: "/tools/color-palette",
+      },
+    ],
+  },
+  {
+    id: "network",
+    icon: "🌐",
+    name: "Web & Network",
+    color: "teal",
+    tools: [
+      {
+        name: "IP Info",
+        desc: "See your current IP, location & ISP",
+        href: "/tools/ip-info",
+      },
+      {
+        name: "URL Parser",
+        desc: "Break down URL into protocol, host, params",
+        href: "/tools/url-parser",
+      },
+      {
+        name: "User Agent Parser",
+        desc: "Detect browser, OS and device from UA string",
+        href: "/tools/user-agent-parser",
+      },
+      {
+        name: "DNS Lookup",
+        desc: "Query DNS records for any domain",
+        href: "/tools/dns-lookup",
+      },
+    ],
+  },
+  {
+    id: "math",
+    icon: "🔢",
+    name: "Math & Conversion",
+    color: "red",
+    tools: [
+      {
+        name: "Number Base Converter",
+        desc: "Convert binary, hex, decimal, octal",
+        href: "/tools/number-base",
+      },
+      {
+        name: "ASCII ↔ Text",
+        desc: "Convert text to ASCII codes and back",
+        href: "/tools/ascii-text",
+      },
+      {
+        name: "Unit Converter",
+        desc: "Length, weight, temperature, speed & more",
+        href: "/tools/unit-converter",
+      },
+      {
+        name: "Percentage Calculator",
+        desc: "Quick percentage and ratio calculations",
+        href: "/tools/percentage-calculator",
+      },
+      {
+        name: "Roman Numerals",
+        desc: "Convert between Roman numerals and numbers",
+        href: "/tools/roman-numerals",
       },
     ],
   },

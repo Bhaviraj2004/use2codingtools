@@ -49,6 +49,34 @@ const colorMap: Record<
     cardHover: "hover:shadow-yellow-500/5",
     tag: "bg-yellow-500/10 text-yellow-400",
   },
+  pink: {
+    border: "hover:border-pink-500/40",
+    accent: "text-pink-400",
+    iconBg: "bg-pink-500/10",
+    cardHover: "hover:shadow-pink-500/5",
+    tag: "bg-pink-500/10 text-pink-400",
+  },
+  violet: {
+    border: "hover:border-violet-500/40",
+    accent: "text-violet-400",
+    iconBg: "bg-violet-500/10",
+    cardHover: "hover:shadow-violet-500/5",
+    tag: "bg-violet-500/10 text-violet-400",
+  },
+  teal: {
+    border: "hover:border-teal-500/40",
+    accent: "text-teal-400",
+    iconBg: "bg-teal-500/10",
+    cardHover: "hover:shadow-teal-500/5",
+    tag: "bg-teal-500/10 text-teal-400",
+  },
+  red: {
+    border: "hover:border-red-500/40",
+    accent: "text-red-400",
+    iconBg: "bg-red-500/10",
+    cardHover: "hover:shadow-red-500/5",
+    tag: "bg-red-500/10 text-red-400",
+  },
 };
 
 export default function Home() {
