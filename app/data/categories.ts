@@ -263,11 +263,6 @@ export const categories = [
         href: "/tools/word-counter",
       },
       {
-        name: "Character Counter",
-        desc: "Count chars with Twitter/LinkedIn limits",
-        href: "/tools/character-counter",
-      },
-      {
         name: "Text Diff",
         desc: "Compare two blocks of text line by line",
         href: "/tools/text-diff",
