@@ -1,7 +1,7 @@
 "use client";
 
 import ToolNavbar from "@/app/components/toolsNavBar";
-import { useState, useMemo } from "react";
+import { useState, useMemo, JSX } from "react";
 
 // ── Types ─────────────────────────────────────────────────────
 type OutputLang = "fetch" | "axios" | "got" | "python";

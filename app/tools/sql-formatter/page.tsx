@@ -1,7 +1,7 @@
 "use client";
 
 import ToolNavbar from "@/app/components/toolsNavBar";
-import { useState, useCallback } from "react";
+import { useState, useCallback, JSX } from "react";
 
 // ── SQL Keywords ──────────────────────────────────────────────
 const KEYWORDS_NEWLINE = [
